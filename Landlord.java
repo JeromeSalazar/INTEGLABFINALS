@@ -40,11 +40,11 @@ public class Landlord implements ApartmentSys{
                     kbd.nextLine();
                 } else {
                     switch (choice) {
-                        case 1 : (); break; /*Insert method name*/
-                        case 2 : (); break; /*Insert method name*/
-                        case 3 : (); break; /*Insert method name*/
-                        case 4 : (); break; /*Insert method name*/
-                        case 5 : (); break; /*Insert method name*/
+                        case 1 : getName(); break; /*Insert method name*/
+                        case 2 : showVacantSlots(); break; /*Insert method name*/
+                        case 3 : showOccupiedSlots(); break; /*Insert method name*/
+                        case 4 : checkIn(); break; /*Insert method name*/
+                        case 5 : checkOut(); break; /*Insert method name*/
                         case 6 : break out;
                         default : break;
                     }
